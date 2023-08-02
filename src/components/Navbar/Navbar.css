@@ -1,0 +1,38 @@
+.logo {
+    margin: 0;
+    font-size: 1em;
+  }
+  
+  .logo h2 {
+    color: #5f67f0;
+  
+  }
+  
+  .navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+  }
+  
+  .menu {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+    list-style: none;
+  }
+  
+  .menu li {
+    font-size: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+  
+  }
+  
