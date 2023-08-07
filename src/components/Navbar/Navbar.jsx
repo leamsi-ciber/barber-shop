@@ -1,11 +1,10 @@
 import './Navbar.css'
+import Image from '../../assets/images/newera.png'
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="logo">
-        <h2>New Era</h2>
-      </div>
-      <div className="menu">
+      <img src={Image} className='logo'/>
+      <nav>
         <ul>
           <li>
             <a href="">Home</a>
@@ -23,7 +22,7 @@ const Navbar = () => {
             <a href="">Contact</a>
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
   );
 };

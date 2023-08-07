@@ -1,7 +1,33 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.header-container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(assets/images/barbershop13.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 18%;
+  box-sizing: border-box;
 }
 
+.row {
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+h1 {
+  color: #FFBD59;
+  text-transform: uppercase;
+  font-size: 20px;
+
+}
+
+p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 20px;
+}
